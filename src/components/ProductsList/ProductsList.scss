@@ -1,0 +1,40 @@
+@import '../../index.scss';
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 4px solid $main-color;
+}
+
+.product-list {
+    max-width: 100%;
+    display: grid;
+    gap: 3rem;
+    margin-top: 2rem;
+
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.product-container {
+    border: 4px solid $main-color;
+    input{
+        margin: 1rem;
+    }
+
+    input[type="checkbox"]{
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+    }
+
+    ul {
+        padding: 0 2rem 2rem 2rem;
+        text-align: center;
+        line-height: 1.4rem;
+        font-size: 19;
+        font-weight: 500;
+    }
+
+}
