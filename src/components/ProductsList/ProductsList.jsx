@@ -14,7 +14,7 @@ const ProductsList = () => {
         </h1>
 
         <div className="btn-container">
-          <Link to="add-products">
+          <Link to="addproduct">
             <button className="btn">
               ADD
             </button>
