@@ -16,12 +16,12 @@ const ProductsList = () => {
         <div className="btn-container">
           <Link to="add-products">
             <button className="btn">
-              Add products
+              ADD
             </button>
           </Link>
 
           <button id="delete-btn" className="delete-product-btn btn" onClick={handleDelete}>
-            Mass delete
+            MASS DELETE
           </button>
         </div>
       </nav>
