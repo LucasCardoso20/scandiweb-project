@@ -30,7 +30,6 @@ const ProductsList = () => {
         {products.map((product) => (
           <article key={product.id} className="product-container">
             <input type="checkbox" className='delete-checkbox' id={product.id} onChange={handleIds} />
-
             <ul>
               <li id="sku">{product.SKU}</li>
               <li>{product.name}</li>
