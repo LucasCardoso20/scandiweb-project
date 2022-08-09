@@ -32,7 +32,7 @@ const ProductsList = () => {
             <input type="checkbox" className='delete-checkbox' id={product.id} onChange={handleIds} />
 
             <ul>
-              <li id="sku">#sku</li>
+              <li id="sku">{product.SKU}</li>
               <li>{product.name}</li>
               <li>{product.price}$</li>
               <li>
